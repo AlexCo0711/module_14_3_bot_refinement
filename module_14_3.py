@@ -76,7 +76,7 @@ async def main_menu(message: types.Message, state: FSMContext):
     # ожидание нажатия кнопок выбора
     await message.answer('Выберите опцию:', reply_markup=kb_info)
     # ожидание останова данной функци
-    # await call.answer()
+    await call.answer()
 
 
 # обработчик ожидания нажатия кнопки «Формулы расчёта»
